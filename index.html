@@ -16,22 +16,24 @@
       <nav>
         <div class="personal__logo">Tyler Cohen</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#project"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Project</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a
+              href="mailto: tytygames@icloud.com"
+              class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -48,7 +50,8 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text-purple"> Tyler Cohen </span> 👋
+              Hey! I'm <span class="text-purple"> Tyler Cohen </span>&nbsp;
+              <span class="wave"> 👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -146,8 +149,82 @@
       <div class="container">
         <div class="row">
           <h1 class="section__title">Here are some of my projects</h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="cars subcription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Car sales projects
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eos temporibus vero esse est minus, expedita magnam corrupti
+                    adipisci blanditiis aliquam quaerat, porro veniam assumenda
+                    doloremque rerum quibusdam! Inventore, consequuntur illo?
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/Real-Tyler"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://github.com/Real-Tyler"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure>
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popup">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >github</a
+          >
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >website</a
+          >
+          <a
+            href="mailto: tytygames@icloud.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >email</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
